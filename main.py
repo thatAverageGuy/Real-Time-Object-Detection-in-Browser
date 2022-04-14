@@ -4,6 +4,7 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 from inference import predict
+from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
 
 @st.cache(allow_output_mutation=True)
 def load_model():
