@@ -3,3 +3,6 @@ Streamlit app for real-time object detection in browser using OpenCV and yolov5 
 
 
 Link to deployed app: https://share.streamlit.io/mohityogesh44/real-time-object-detection-in-browser/main/main.py
+
+
+Note: The app performance might get hindered due to deployment scenarios. Please check Dev branch code and run it on local to get real performance results.
