@@ -12,7 +12,7 @@ from streamlit_webrtc import webrtc_streamer
 def load_model():
     """Load model from hub with custom weights."""
     model = hub.load("ultralytics/yolov5", 'custom', "connector.pt")
-#     model.conf = 0.6
+    model.conf = 0.7
     return model
 with st.spinner('Model is being loaded..'):
         model=load_model()
